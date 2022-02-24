@@ -1,0 +1,42 @@
+h1{
+    /* Heading Calculator */
+    font-size: 6vh;
+}
+body{
+    /* making body and padding of the body zero */
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    text-align: center;
+    /* margin-top: 3vh; */
+}
+table{
+    margin: auto;
+}
+input{
+    /* for the input */
+    padding: 2px;
+    border-radius: 3vh;
+    font-size: 6vh;
+    border: 4px black solid;
+}
+/* for the ineer div */
+.calculator{
+    display: inline-block;
+    background-color: yellow;
+    padding: 5vh;
+    border: 4px solid black;
+}
+/* for the calculator buttons */
+button{
+    font-size: 9vh;
+    /* margin: 1vh; */
+    width: 18vh;
+    height: 13vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    background-color: rgb(5 255 232);
+    color: rgb(0, 0, 0);
+    border: thick 2px rgb(32, 164, 240);
+}
